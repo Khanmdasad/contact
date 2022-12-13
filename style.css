@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    background-size: cover;
+    
+}
+
+.contact .content{
+    max-width: 100px;
+    text-align: center;
+} 
+
+.contact .content h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #CD7F32;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 10px ;
+    display: flex;
+}
+
+.box .icon{
+    
+    min-width: 30px;
+    width: 30px;
+    height: 25px;
+    margin: 10px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.box .icon .email{
+    margin-top: 10px;
+}
+
+.text a{
+    text-decoration: none;
+    background-color: none;
+    color: #CD7F32;
+} 
+
+.icon .fa:hover{
+    color: #e7c8a9;
+}
+.text a:hover {
+    color: #e7c8a9;
+    background-color: transparent;
+}
+
+
+
+.icon a:link {
+    color: #CD7F32;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e7c8a9;
+    background-color: transparent;
+    /* text-decoration: underline; */
+}
+
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #CD7F32;
+}
+
+
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: black;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: #CD7F32;
+    font-weight: 500;
+}
+
+.inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.inputBox input,
+.inputBox textarea{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.inputBox span{
+    position: absolute;
+    left: 0;
+    color: #333;
+    padding: 5px 10PX;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+}
+
+
+.inputBox input[type="submit"]{
+    width: 100px;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
